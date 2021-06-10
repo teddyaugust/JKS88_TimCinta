@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jks88.timcinta">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherxhdi"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcherxhdi"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JKS88TimCinta">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3915897220260610~1026006904"/>
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".TutorialActivity" />
+        <activity android:name=".UpdateNewsActivity" />
+        <activity android:name=".AccountLoginActivity" />
+        <activity android:name=".TestimonyActivity" />
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".MarketingPlanActivity" />
+        <activity android:name=".TimCintaActivity" />
+        <activity android:name=".CompanyActivity" />
+        <activity android:name=".AgendaActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
